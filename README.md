@@ -252,8 +252,7 @@ Transformation and Analysis
                )
 ```
 ###### Snapshot of Progress after 1-year
-![One Year Dashboard](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/1%20year%20in.png)
-
+![One Year Dashboard](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/After%201%20year.png)
 
 ## Insights
 ### National Level
