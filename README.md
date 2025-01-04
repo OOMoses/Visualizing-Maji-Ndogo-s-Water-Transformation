@@ -9,7 +9,7 @@
 - [Power BI Workflow](#power-bi-workflow)
 - [Key Power BI Scripts](#key-power-bi-scripts)
 - [Insights](#insights)
-- [Conclusion](#conclusion)
+- [Next Steps](#next-steps)
 
 ## Overview
 The project leverages data analytics to uncover insights about water availability, infrastructure needs, population dynamics, and socio-economic impacts in addressing critical water access challenges. By combining SQL for data cleaning and transformation with Power BI for advanced visualization, I provide actionable intelligence to guide decision-makers and stakeholders.
@@ -208,6 +208,9 @@ Transformation and Analysis
 -	Visualized key metrics with DAX Measures like cumulative_budget and population_with_basic_access.
 -	Drill-down capabilities from national to town levels.
 
+###### Data Model
+![Data Model](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/Data%20model.png)
+
 ## Key Power BI Scripts
 **1. DAX Measures:**
 ```ruby
@@ -251,40 +254,159 @@ Transformation and Analysis
                )
                )
 ```
-###### Snapshot of Progress after 1-year
-![One Year Dashboard](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/After%201%20year.png)
 
 ## Insights
-### National Level
-•	Problem: Uneven distribution of water sources with rural areas lagging in access.
 
-•	Solution: Budget realignment for rural-focused projects.
-
-•	Key Metric: 34% of the population has access to basic water sources, which is projected to rise to 57% with planned improvements.
-
+Water Access Challenges and Metrics
 ###### Snapshot of Distribution
 ![Distribution](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/Water%20source%20distribution.png)
 
-### Provincial and Regional Level
-•	Problem: Gender disparities in queue times and water access.
+## Insights on Water Distribution
+1. Urban vs. Rural Distribution
+Problem: Urban areas serve 10M people (36.15%), while rural areas, with limited infrastructure, serve 18M (63.85%) of the population, creating a significant disparity.
+Solution: Invest in rural water infrastructure, such as wells and communal taps, to balance access.
+Key Metric: Rural areas, serving nearly two-thirds of the population (63.85%), face greater challenges in water source reliability.
 
-•	Solution: Targeted interventions for areas with significant disparities.
+2. Water Source Utilization
+Problem: Wells, the most utilized source, serves 10.9K people (46%). Shared taps serve 4.3K (18.1%), while broken home taps impact 5M (21%), indicating inefficient infrastructure.
+Solution: Focus on repairing broken taps and improving access to reduce dependency on shared taps.
+Key Metric: Shared taps and "Tap in Home Broken" together serve 38.1% of the population, representing critical areas for intervention.
 
-•	Key Metric: Over 60% of women in rural areas spend more time collecting water than their urban counterparts.
+3. City-Level Distribution
+Problem: Larger cities like Harare (10.5%) have better water source distribution than smaller cities like Ilanga, exacerbating disparities.
+Solution: Target smaller cities such as Ilanga and Kintampo with tailored water access programs.
+Key Metric: Harare serves 10.5% of "Tap in Home Broken" users, while smaller cities account for less than 5% each.
+
+4. Tap in Home Broken
+Problem: Broken taps serve 5M people (21%), leading to inefficiency, delays, and health risks.
+Solution: Introduce regular maintenance schedules and fast repair response systems for taps in urban and rural areas.
+Key Metric: Harare (10.5%) and Amina (16%) account for the largest shares of broken tap users, underscoring systemic maintenance issues.
+
+5. Geographic Patterns
+Problem: Water access is uneven, with regions like Harare being well-connected while outlying areas are underserved. Some regions serve fewer than 1% of the population per water source.
+Solution: Focus on underserved regions to ensure equitable water access across all locations.
+Key Metric: Harare serves 10.5% of "Tap in Home Broken" users, while outlying regions serve significantly lower percentages.
+
+6. Community Impact
+Problem: Reliance on broken or shared water sources affects over 21% of the population, increasing inefficiencies, waiting times, and health risks.
+Solution: Develop sustainable water systems using technology for real-time issue reporting and improved management.
+Key Metric: Over 21% of the population depends on broken taps, and 10% on rivers, causing significant delays and inefficiencies in water collection.
+
 
 ###### Snapshot of Gender disparities
 ![Gender Disparity](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/Gender%20disparity.png)
 
-### Town Level
-•	Problem: Rising crime rates near water sources in certain towns.
+## Insights on Gender Disparity and Crime Data
+1. Gender Disparity in Crime Victimization
+Problem: Males are the most affected group, making up 64.39% of all crime victims (49.72K victims). Women, at 25.42% (19.63K victims), are disproportionately targeted in harassment and sexual assault cases, while children face vulnerabilities across various crimes.
+Solution: Implement targeted safety measures for men during peak crime hours and develop specialized support systems for women and children, particularly in high-risk areas like Kilimani.
+Key Metric: Males constitute 64.39% of crime victims, while 80% of sexual assault victims are female.
 
-•	Solution: Community policing initiatives tied to water infrastructure improvements.
+2. Gender Disparities in Crime Types
+Problem: Gender-based crime patterns show significant disparities. Women are predominantly victims of harassment (60%) and sexual assault (80%), while men are most affected by theft (70%) and public intoxication crimes (65%).
+Solution: Launch gender-specific interventions, such as community awareness programs, female-focused safety networks, and male-targeted theft prevention initiatives.
+Key Metric: Women account for 60% of harassment victims, and men are the majority (70%) in theft cases.
 
-•	Key Metric: Reduction in water-source-related crimes after infrastructure upgrades.
+3. Provincial Crime Distribution
+Problem: Urban areas like Kilimani report the highest crime rates (20K crimes), with males consistently representing the majority of victims (~65%). Outlying provinces like Hawassa experience lower crime rates but maintain gender disparities.
+Solution: Focus resources and law enforcement in high-crime areas like Kilimani while addressing rural crime prevention with tailored strategies.
+Key Metric: Kilimani accounts for 20K crimes, with males constituting ~65% of victims.
+
+4. Crime Patterns by Hour
+Problem: Crime peaks between 8 PM and 10 PM, predominantly affecting males (~70% of victims during these hours), indicating risks associated with mobility and activities during nighttime.
+Solution: Enhance nighttime policing, increase lighting in urban areas, and encourage community patrol initiatives during peak hours.
+Key Metric: 70% of nighttime crime victims are male, with incidents spiking from 8 PM to 10 PM.
+
+5. Daily Crime Trends
+Problem: Mondays and Fridays experience the highest crime rates, affecting all genders but disproportionately males (~65%). This may be linked to work-related activities or heightened mobility on these days.
+Solution: Implement strategic scheduling of law enforcement patrols and public awareness campaigns to mitigate risks on high-crime days.
+Key Metric: Mondays and Fridays see the highest crime occurrences, with ~65% of victims being male.
+
+6. Gender-Disparity-Related Crimes in Water Collection
+Problem: Women face 70% of harassment incidents during water collection, making them highly vulnerable in areas where water access is limited or requires long travel.
+Solution: Introduce gender-sensitive interventions such as security patrols near water collection points and improved infrastructure to reduce travel distance.
+Key Metric: 70% of harassment victims during water collection are women.
+
+7. Community Safety and Vulnerable Groups
+Problem: Children, while constituting only 10.2% of victims, remain a vulnerable group due to their inability to defend themselves or navigate risks effectively.
+Solution: Develop child protection programs and integrate safety education into schools and communities to mitigate risks.
+Key Metric: Children make up 10.2% of crime victims, with incidents occurring sporadically across all time periods.
 
 ###### Snapshot of Queue composition
 ![Queue composition](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/Queue%20composition%20days.png)
 
+## Insights on Queue Composition for Shared Taps
+1. Queue Demographics
+Problem: Women dominate queue composition, making up 66%, followed by men at 24% and children at 10%. This indicates gender disparities in water collection responsibilities.
+Solution: Develop gender-balanced solutions, such as equitable household water collection schedules or targeted support for women.
+Key Metric: Women represent 66% of those queuing for shared taps.
 
-## Conclusion
+2. Regional Queue Burdens
+Problem: Kilimani has the highest time spent in queues, totalling 702 days, significantly higher than Hawassa (340 days). This reflects regional disparities in shared tap availability and efficiency.
+Solution: Increase the number of shared taps or improve their distribution in high-demand areas like Kilimani.
+Key Metric: Kilimani accounts for 702 days spent in queues, compared to 340 days in Hawassa.
+
+3. Daily Queue Times
+Problem: Saturdays experience the longest average queue times at 246 minutes, likely due to increased demand from weekend activities, compared to Sundays at 82 minutes.
+Solution: Extend operational hours or allocate additional water sources on peak days to reduce waiting times.
+Key Metric: Queue times on Saturdays are 3x longer than on Sundays.
+
+4. Hourly Queue Trends
+Problem: Queue times peak between 4 PM and 6 PM, suggesting that late afternoon is the busiest period for water collection.
+Solution: Optimize water distribution schedules to meet higher demand during peak hours.
+Key Metric: Peak hourly queue times exceed 250 minutes, significantly above off-peak times.
+
+5. Impact on Productivity
+Problem: Long queues, especially on peak days and times, lead to a loss of productive hours, disproportionately affecting women who spend the most time queuing.
+Solution: Introduce time-saving interventions such as community queue management systems or priority access for certain groups.
+Key Metric: Women, who make up 66% of the queue, are most affected by 246-minute Saturday queues.
+
+6. Children’s Vulnerability
+Problem: Though children make up only 10% of the queues, long wait times expose them to risks, such as reduced study time and health hazards.
+Solution: Provide safe waiting areas or supervised collection systems for children.
+Key Metric: Children spend significant time in queues despite being a minority (10%).
+
+
+###### Snapshot of Progress after 1-year
+![One Year Dashboard](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/After%201%20year.png)
+
+## Insights on Project Progress
+1. Population with Basic Water Access
+At Onset: Only 33.59% of the population had basic access, benefiting 11K people.
+After One Year: Access increased to 48%, positively impacting 3.94M people.
+Insight: A 14.41% increase in access highlights significant progress, reaching over 3.93M additional people in the first year.
+
+2. Project Completion
+At Onset: 0% project completion with 25,369 water sources to address.
+After One Year: 22% of the project was completed, reducing the remaining sources to 19,910.
+Insight: Approximately 5,459 sources were improved within the first year, marking a strong start.
+
+3. Budget and Costs
+At Onset: Total costs were $131,915, slightly exceeding the $128,450 budget (-2.7%).
+After One Year: Costs surged to $33.79M, surpassing the $30.52M budget by 10.69%.
+Insight: While the increase reflects project expansion, budget overruns indicate cost management challenges.
+
+4. Cost Distribution by Province
+At Onset: Provincial cost distribution was relatively balanced.
+After One Year: Kilimani ($11.1M, 32.84%) and Sokoto ($6.66M, 19.7%) became cost-intensive focus areas.
+Insight: High expenditures in key provinces demonstrate concentrated efforts where needs are greatest.
+
+5. Aggregated Improvements
+At Onset: The focus was primarily on reverse osmosis (RO) filter installations ($130K).
+After One Year: Expanded activities included $14.3M for RO filters, $9.4M for public taps, $7.7M for well drilling, $1.7M for UV/RO installations, and $0.7M for repairs.
+Insight: Diversification of improvement efforts addressed broader water access challenges.
+
+6. Key Achievements
+People Helped: The number of beneficiaries increased from 11K to 3.94M, showing a massive scale-up in impact.
+Project Reach: Completion rates improved, and costs were allocated effectively to expand reach.
+
+Overall Recommendations
+- Focus on Underserved Regions: Direct efforts to provinces with minimal progress to ensure equitable access to water resources.
+- Enhance Budget Management: Adopt cost-saving strategies and periodic financial audits to control overruns.
+- Accelerate Implementation: Introduce streamlined workflows, increase field staff, and use technology to expedite project execution.
+- Engage Communities: Foster local involvement to improve infrastructure maintenance, reporting, and long-term sustainability.
+- Monitor Progress Regularly: Use data-driven approaches to measure impact, identify challenges, and recalibrate strategies as needed.
+
+
+## Next Steps
 The Maji Ndogo project exemplifies how data-driven approaches can effectively tackle real-world challenges. By integrating SQL and Power BI, I demonstrated actionable insights to improve water access, enhance budget efficiency, and address societal disparities.
