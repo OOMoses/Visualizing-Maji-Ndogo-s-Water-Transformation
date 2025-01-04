@@ -275,12 +275,10 @@ Transformation and Analysis
 ```
 
 ## Insights
-
-Water Access Challenges and Metrics
-###### Snapshot of Distribution
+###### Snapshot of Water Distribution
 ![Distribution](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/Water%20source%20distribution.png)
 
-**Insights on Water Distribution**
+### Insights
 1. Urban vs. Rural Distribution
 
    Problem: Urban areas serve 10M people (36.15%), while rural areas, with limited infrastructure, serve 18M (63.85%) of the population, creating a significant disparity.
@@ -317,10 +315,10 @@ Water Access Challenges and Metrics
 
    Solution: Develop sustainable water systems using technology for real-time issue reporting and improved management.
 
-###### Snapshot of Gender disparities
+###### Snapshot of Gender disparity and Crime
 ![Gender Disparity](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/Gender%20disparity.png)
 
-## Insights on Gender Disparity and Crime Data
+### Insights
 1. Gender Disparity in Crime Victimization
 
    Problem: Males are the most affected group, making up 64.39% of all crime victims (49.72K victims). Women, at 25.42% (19.63K victims), are disproportionately targeted in harassment and sexual assault cases, while children face vulnerabilities across various crimes.
@@ -363,10 +361,10 @@ Water Access Challenges and Metrics
 
    Solution: Develop child protection programs and integrate safety education into schools and communities to mitigate risks.
 
-###### Snapshot of Queue composition
+###### Snapshot of Queue Composition for Shared Taps
 ![Queue composition](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/Queue%20composition%20days.png)
 
-## Insights on Queue Composition for Shared Taps
+### Insights
 1. Queue Demographics
 
    Problem: Women dominate queue composition, making up 66%, followed by men at 24% and children at 10%. This indicates gender disparities in water collection responsibilities.
@@ -404,10 +402,10 @@ Water Access Challenges and Metrics
    Solution: Provide safe waiting areas or supervised collection systems for children.
 
 
-###### Snapshot of Progress after 1-year
+###### Snapshot of Project Progress after 1-year
 ![One Year Dashboard](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/After%201%20year.png)
 
-## Insights on Project Progress
+### Insights
 1. Population with Basic Water Access
 
    At Onset: Only 33.59% of the population had basic access, benefiting 11K people.
@@ -457,6 +455,7 @@ Water Access Challenges and Metrics
 ###### Snapshot of Cost Overrun Drivers
 ![Cost Overrun Drivers](https://github.com/OOMoses/Visualizing-Maji-Ndogo-s-Water-Transformation/blob/main/assets/images/Cost%20drivers.png)
 
+### Insights
 1. Improvement Type: Install Taps Nearby
 
    This is the most significant driver of cost increases.
