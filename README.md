@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Executive Summary](#executive-summary)
+- [Key Questions](#key-questions)
 - [Data Source](#data-source)
 - [Tools](#tools)
 - [SQL Workflow](#sql-workflow)
@@ -40,6 +41,25 @@ Rural areas remain disproportionately underserved, with 63.85% of the population
 The project also tackled gender and time disparities. Women, who make up 66% of those in water collection queues, face significant productivity losses and heightened risks, particularly during peak hours (4–6 PM) and days like Saturdays, with average queue times of 246 minutes. Gender-sensitive interventions, such as equitable household schedules and security measures, are crucial to alleviate these challenges. Furthermore, children, who constitute 10% of queue demographics, remain vulnerable, emphasizing the importance of safe waiting areas and supervised collection systems.
 
 Despite notable achievements, the project experienced cost management challenges. Initial expenses of $131,915 slightly exceeded the $128,450 budget, but costs surged to $33.79 million within a year, surpassing the $30.52 million budget by 10.69%. Provinces like Kilimani ($11.1 million) and Sokoto ($6.66 million) accounted for the largest expenditures, reflecting focused efforts in high-need areas. Diversified improvements, such as $14.3 million for reverse osmosis filters and $9.4 million for public taps have significantly enhanced water access, but strategic cost control remains a priority to sustain progress.
+
+
+## Key Questions
+
+- Where are the longest queue times at water sources, and what does that reveal about demand across Maji Ndogo?
+
+- Which regions have the most contaminated water sources, and how severe is the contamination?
+
+- Are certain types of water sources more prone to pollution or long queues than others?
+
+- How evenly are water sources distributed across provinces or communities?
+
+- Which water sources are underutilized, and where might there be opportunities for better allocation?
+
+- How does water source usage correlate with contamination or pollution levels?
+
+- What water quality trends can help prioritize resource investment or health interventions?
+
+- Which locations should be prioritized for new infrastructure or rehabilitation efforts?
 
 ## Data Source
 -	ALX: Survey data on water sources and demographics.
